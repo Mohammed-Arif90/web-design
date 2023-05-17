@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:wght@400;500&family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainbody,
+.information {
+  background: linear-gradient(-45deg, #ffffff, #b5b5b5);
+  background-size: 400% 400%;
+}
+
+.mainbody,
+.information {
+  animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Define the background gradient */
+.sidebar,
+.sidebar2,
+.sidebar3,
+.sidebar4,
+.button,
+.blogitems-buttons2 {
+  background: linear-gradient(to right, #00b8ea, #0065e0);
+}
+
+/* Define the animation */
+.sidebar,
+.sidebar2,
+.sidebar3,
+.sidebar4,
+.button,
+.blogitems-buttons2 {
+  animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.sidebar {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  padding-top: 45px;
+  width: 10vw;
+  height: 100vh;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+
+.sidebar2 {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  padding-top: 45px;
+  width: 10vw;
+  height: 205vh;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+
+.sidebar3 {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  padding-top: 45px;
+  width: 10vw;
+  height: 125vh;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+
+.sidebar4 {
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  padding-top: 45px;
+  width: 10vw;
+  height: 105vh;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+}
+
+.sidebar nav ul li,
+.sidebar2 nav ul li,
+.sidebar3 nav ul li,
+.sidebar4 nav ul li {
+  padding-bottom: 70px;
+  list-style: none;
+}
+
+.sidebar nav ul li a,
+.sidebar2 nav ul li a,
+.sidebar3 nav ul li a,
+.sidebar4 nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.mainbody {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 90vw;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.information {
+  margin: 140px 25px auto;
+  background-color: #fffffd;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  border-radius: 215px;
+}
+
+.image {
+  height: 75vh;
+  margin-top: -45px;
+}
+
+.image:hover {
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+.text {
+  display: block;
+  justify-items: left;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  margin-left: 60px;
+}
+
+.intro {
+  padding-bottom: 5px;
+  font-size: 48px;
+}
+
+.name {
+  padding-bottom: 20px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.name {
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+.about {
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+
+.buttons button {
+  /* Your CSS styles here */
+  background-color: #1a237e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: "Nunito", sans-serif;
+  margin-right: 5px;
+  margin-top: 15px;
+}
+
+.buttons button:hover {
+  /* Your hover styles here */
+  background-color: #005fb2;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.blogitems-buttons2 {
+  /* Your CSS styles here */
+  background-color: #1a237e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5px;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: "Nunito", sans-serif;
+  margin-right: 5px;
+  margin-top: -20px;
+  margin-left: -40px;
+}
+
+.blogitems-buttons2:hover {
+  /* Your hover styles here */
+  background-color: #005fb2;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar ul li:hover,
+.sidebar2 ul li:hover,
+.sidebar3 ul li:hover,
+.sidebar4 ul li:hover {
+  font-size: 25px;
+  color: #aaa;
+}
+
+.contact {
+  font-family: "Raleway", sans-serif;
+}
+
+.mainbody div h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 45px;
+}
+
+.contact form div {
+  padding: 15px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.mainbody div form {
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.form-text {
+  margin-left: -41px;
+  font-size: 19px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-check-label {
+  font-size: 19px;
+}
+
+.form-control {
+  padding-top: 7px;
+  border-radius: 5px;
+  border-width: 1.5px;
+  width: 450px;
+}
+
+.mb-3-form-check {
+  margin-top: -20px;
+  margin-left: 3px;
+}
+
+.blogcontant h1 {
+  font-family: "Raleway", sans-serif;
+  margin: 25px;
+  font-size: 45px;
+}
+
+.blogitems div {
+  margin: 40px;
+}
+
+.skills p {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 63px;
+  margin-top: 50px;
+  margin-left: 52px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.heading h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+}
+
+.heading1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+}
+
+.light-green {
+  background-color: rgb(68, 255, 68);
+  width: 500px;
+  height: 9px;
+  border: 1.5px solid black; /* Add black thin border */
+}
+
+.green {
+  background-color: rgb(20, 215, 20);
+  width: 443px;
+  height: 9px;
+  border: 1.5px solid black; /* Add black thin border */
+}
+
+.yellow {
+  background-color: rgb(253, 253, 0);
+  width: 287px;
+  height: 9px;
+  border: 1.5px solid black; /* Add black thin border */
+}
+
+.red {
+  background-color: rgb(215, 0, 0);
+  width: 100px;
+  height: 9px;
+  border: 1.5px solid black; /* Add black thin border */
+}
+
+.yellow2 {
+  background-color: rgb(248, 214, 44);
+  width: 236px;
+  height: 9px;
+  border: 1.5px solid black; /* Add black thin border */
+}
+
+.stats {
+  display: flex;
+  background-color: #aeedff;
+  border-radius: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.lines div {
+  display: flex;
+  margin: 69px 37px 78px;
+  border-radius: 5px;
+}
+
+.myintro div {
+  border-radius: 20px;
+  background-color: #aeedff;
+  margin: 10px;
+  padding: 25px;
+}
+
+.mainbody-box {
+  display: block;
+  flex: 2fr;
+}
+
+.myintro p {
+  padding-top: 20px;
+}/*# sourceMappingURL=style.css.map */
